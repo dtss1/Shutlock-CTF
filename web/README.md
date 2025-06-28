@@ -1,7 +1,7 @@
 # 🌐 Web
 
-- [Formality](/formality/writeup.md)
+- [Formality](./formality/writeup.md)
 
-- [IceCream](/icecream/writeup.md)
+- [IceCream](./icecream/writeup.md)
 
-- [Old School Markus](/oldschoolmarkus/writeup.md)
+- [Old School Markus](./oldschoolmarkus/writeup.md)
