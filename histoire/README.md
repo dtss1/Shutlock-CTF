@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- [Un pingouin dans une botte de foin](./unpingbottedeboin/writeup.md)  
+- [Un pingouin dans une botte de foin](./unpingbottedefoin/writeup.md)  
 - [Le Générique de Trop](/generiquedetrop/writeup.md)  
 
 ## Checkpoint 1
