@@ -187,19 +187,6 @@ bool check(long param_1,int param_2) // param 1 (RDI) --> pointeur vers le buffe
   return local_11;
 }
 ```
-
-On peut donc inverser la vérification  :
-
-```python
-t1 = bytes.fromhex("79 30 55 46 6f 75 4e 64")          # 16 o  : table1
-t2 = bytes.fromhex("2a 43 3b 12 29 44 2d 0e"           # 32 o  : table2
-                   "5f 37 02 21 2d 08 26 30"
-                   "5f 11 12 32 55 1d 6a 1a"
-                   "1c 0b 26 09 49 68 36 3c")
-
-perm = bytes(t1[i % 4] ^ t2[i] for i in range(32))
-```
-
 Maintenant il ne reste plus qu'à inverse la permutation appliqué par le shellcode pour retrouver le vrai flag :
 
 ```python
