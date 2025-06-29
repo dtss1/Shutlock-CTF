@@ -6,7 +6,7 @@ Une page de connexion est disponible (`/login`), ainsi qu'une page pour créer u
 
 ![Connection](images/connect.png)
 
-Nous ne sommes pas connecté en tant que `test` mais en tant que `user`, en regardant nos cookies de sessions on se rend compte que un token JWT nous est attribué lors de notre connexion avec le rôle `user` :
+Nous ne sommes pas connecté en tant que `test` mais en tant que `user`, en regardant nos cookies de sessions on se rend compte qu'un token JWT nous est attribué lors de notre connexion avec le rôle `user` :
 
 ![Token1](images/token1.png)
 
