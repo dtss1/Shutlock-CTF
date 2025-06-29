@@ -208,7 +208,7 @@ def get_dword(i):
     return Concat(mem[i+3], mem[i+2], mem[i+1], mem[i])
 
 def put_dword(i, val):
-    mem[i]   = Extract(7, 0, val)
+    mem[i] = Extract(7, 0, val)
     mem[i+1] = Extract(15, 8, val)
     mem[i+2] = Extract(23, 16, val)
     mem[i+3] = Extract(31, 24, val)
