@@ -89,7 +89,7 @@ Nous avons accès au token jwt avec le rôle "simple-utilisateur" au départ mai
 
 ![SECRET](images/secret.png)
 
-On utilise un script python pour forger le bon token maintenant que nous avons tout :
+On utilise un script python pour forger le bon token maintenant que nous avons tout ce dont on a besoin :
 
 ```python
 import hmac
