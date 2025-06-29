@@ -1,6 +1,6 @@
 # 🌐 Web
 
-- [Formality](./formality/writeup.md)
+- [FormAlity](./formality/writeup.md)
 
 - [IceCream](./icecream/writeup.md)
 
