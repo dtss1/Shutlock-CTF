@@ -1,5 +1,7 @@
 ![Desc](images/desc.png)
 
+# Writeup
+
 On part d’une page web sur laquelle on peut remplir une sorte de formulaire, après quelques essais et manipulations avec BurpSuite on n’en extrait rien d’utile.
 
 Une page de connexion est disponible (`/login`), ainsi qu'une page pour créer un compte (`/register`), on peut donc se créer un compte avec les credentials `test:test` par exemple :
