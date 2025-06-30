@@ -30,7 +30,7 @@ Un peu plus haut nous avions remarqué que notre rôle dans le token était `"us
 
 ![Newform](images/newform.png)
 
-On obtient accès à la page Justificatif (JWT "alg: none"):
+On obtient accès à la page Justificatif (`JWT "alg: none"`):
 
 ![Just](images/just.png)
 
