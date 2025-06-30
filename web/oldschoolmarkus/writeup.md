@@ -1,6 +1,6 @@
 ![Desc](images/desc.png)
 
-# Writeup
+# Write-Up
 
 On part d’une page web qui, via un formulaire, ping un serveur MC pour afficher joueurs, version, description & favicon. En testant mc.hypixel.net:25565, on reçoit une erreur exigeant un MOTD contenant “Cinema” et “Cannes” :
 
@@ -142,4 +142,4 @@ On récupère le flag :
 
 **Flag**
 
-`SHLK{0!d_Sch00L_Guy_H0lds_0lds_V3rsions}`
+`SHLK{O!d_Sch0Ol_Guy_Ho1ds_Olds_V3rsions}`

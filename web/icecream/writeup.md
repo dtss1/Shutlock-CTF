@@ -1,6 +1,6 @@
 ![Desc](images/desc.png)
 
-# Writeup
+# Write-Up
 
 On part d’une page web qui nous permet de lister des ingrédients "pour une glace comme fait notre papi", la première vulnérabilité est une Local File Inclusion, en effet en modifiant le paramètre `dir=ingredients` par `dir=/`, on peut lister les fichiers et dossiers du dossier courant :
 

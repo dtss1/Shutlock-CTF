@@ -15,7 +15,8 @@
 
 ## Perquisition
 
-- [Un cadavre peut en cacher un autre](./cadavrecacherunautre/writeup.md)  
+- [Un cadavre peut en cacher un autre](./cadavrecacherunautre/writeup.md)
+- [Shutcraft](./shutcraft/writeup.md)
 
 ## Checkpoint 4
 
