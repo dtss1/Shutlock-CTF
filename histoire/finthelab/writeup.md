@@ -34,7 +34,7 @@ Ensuite il ne nous reste plus qu'à trouver l'étage où elle a été prise, sur
 
 ![rebord](images/rebord.png)
 
-Etant donné que la photo est prise d'une certaine hauteur, nous pouvons déduire que la photo a forcément était prise depuis le carré rouge sur la photo ci-dessus au 3ème étage.
+Etant donné que la photo est prise d'une certaine hauteur, nous pouvons déduire qu'elle a forcément était prise depuis le carré rouge sur la photo ci-dessus au 3ème étage.
 
 
 **Flag**
