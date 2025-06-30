@@ -110,7 +110,7 @@ def muNFx(muNFs):
     muNFs.KhYXyvso = True
     while muNFs.KhYXyvso:
         try:
-            opcode = muNFs.muNFV() # F1: Fetch
+            opcode = muNFs.muNFV() # F1: Fetch IP
         except IndexError:
             return 1 # fin du programme --> échec
         if muNFs.muNFo(opcode): # D2: Decode & Execute
