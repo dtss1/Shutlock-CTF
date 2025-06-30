@@ -1,6 +1,6 @@
 ![Desc](images/desc.png)
 
-# Write-Up
+# Writeup
 
 On part d’une page web qui, via un formulaire, ping un serveur MC pour afficher joueurs, version, description & favicon. En testant mc.hypixel.net:25565, on reçoit une erreur exigeant un MOTD contenant “Cinema” et “Cannes” :
 

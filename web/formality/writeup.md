@@ -1,6 +1,6 @@
 ![Desc](images/desc.png)
 
-# Write-Up
+# Writeup
 
 On part d’une page web sur laquelle on peut remplir une sorte de formulaire, après quelques essais et manipulations avec BurpSuite on n’en extrait rien d’utile.
 
