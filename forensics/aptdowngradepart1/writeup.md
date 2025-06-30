@@ -47,10 +47,6 @@ Grâce à Autopsy, un outil gratuit et formidable, on trouve l'origine de celui 
 
 Ce fichier provient d'un spam de `star_wars_official@proton.me`
 
-**Flag format :**
-
-`SHLK{bc5945feb8bd26203ebfafea5ce1878bb2e32cb8fb50ab7ae395cfb1e1aaaef1:mail@domain.tld:/home/test/.dossier/fichier.xyz}`
-
 **Flag**
 
 `SHLK{66640c14f898c78a99757ab4460c635476dfeb9b3b65e8a57fb29202eefb9423:star_wars_official@proton.me:/tmp/config.bin}`
